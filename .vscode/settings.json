@@ -1,6 +1,3 @@
 {
     "makefile.extensionOutputFolder": "./.vscode"
-    "files.exclude": {
-        "**/.git": false
-   }
 }
