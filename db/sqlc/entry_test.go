@@ -46,7 +46,7 @@ func TestReadEntry(t *testing.T) {
 
 func TestListEntry(t *testing.T) {
 	arg := ListEntryParams{
-		Limit:  5,
+		Limit:  2,
 		Offset: 0,
 	}
 	entries, err := testQueries.ListEntry(context.Background(), arg)
