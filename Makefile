@@ -19,10 +19,13 @@ sqlc:
 test:
 	go test -v -cover ./...
 
+server:
+	go run main.go
+
 wsqlc:
 # following these step to run on window
 # docker pull kjconroy/sqlc
 # run this docker run --rm -v <absolute path to currrent directory>:/src -w /src kjconroy/sqlc generate
 	docker run --rm -v G:\Studying\Go\SimpleBank\simplebank:/src -w /src kjconroy/sqlc generate
 
-.PHONY: postgres createdb dropdb migrateup migratedown sqlc wsqlc test
+.PHONY: postgres createdb dropdb migrateup migratedown sqlc wsqlc test server
