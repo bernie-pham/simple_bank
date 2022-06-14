@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 18:42:44 2022
+# Make data base, printed on Tue Jun 14 19:10:47 2022
 
 # Variables
 
@@ -23,17 +23,15 @@ USERPROFILE = C:\Users\phamn
 # environment
 LOCALAPPDATA = C:\Users\phamn\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-e4e48883-c729-44fe-b15b-009b6b362d97-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ab09c0e3-e29f-4b8f-b731-5fb0f53f490c-sock
 # environment
-WSLENV = WT_SESSION::WT_PROFILE_ID
-# environment
-VSCODE_CWD = G:\Studying\Go\SimpleBank\simplebank
+VSCODE_CWD = C:\Users\phamn\AppData\Local\Programs\Microsoft VS Code
 # environment
 SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Users\phamn\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/Users/phamn/scoop/apps/make/current/bin/make.exe
 # environment
@@ -41,7 +39,7 @@ GOPATH = C:\Users\phamn\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11404_RMVEPKYPGJVIIMYS
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5904_JDWMFGJTGIETVDIP
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -97,11 +95,9 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 11404
+VSCODE_PID = 5904
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
-# environment
-WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -131,7 +127,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\phamn\scoop\shims;C:\Users\phamn\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\phamn\AppData\Local\Programs\Python\Python310\;C:\Users\phamn\AppData\Local\Microsoft\WindowsApps;C:\Users\phamn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\phamn\go\bin
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\phamn\scoop\shims;C:\Users\phamn\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\phamn\AppData\Local\Programs\Python\Python310\;C:\Users\phamn\AppData\Local\Microsoft\WindowsApps;;C:\Users\phamn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\phamn\go\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -142,8 +138,6 @@ MAKEFILES :=
 ^F = $(notdir $^)
 # environment
 PROMPT = $P$G
-# environment
-WT_SESSION = e9f99c64-10d3-4d40-b207-f91b79b1163a
 # environment
 LOGONSERVER = \\DESKTOP-T84QKLQ
 # environment
@@ -157,7 +151,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
 # automatic
 +F = $(notdir $+)
 # environment
@@ -211,17 +205,16 @@ SUFFIXES :=
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-VSCODE_CLI = 1
-# environment
-ELECTRON_NO_ATTACH_CONSOLE = 1
+SESSIONNAME = Console
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver ou 
+tput-sync load
 # environment
 PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=104/1024=10%, Rehash=0, Collisions=12/131=9%
+# Load=100/1024=10%, Rehash=0, Collisions=10/127=8%
 
 # Pattern-specific Variable Values
 
@@ -345,12 +338,11 @@ createdb:
 # No general ('VPATH' variable) search path.
 
 # strcache buffers: 1 (0) / strings = 34 / storage = 258 B / avg = 7 B
-# current buf: size = 8174 B / used = 258 B / coun 
-t = 34 / avg = 7 B
+# current buf: size = 8174 B / used = 258 B / count = 34 / avg = 7 B
 
 # strcache performance: lookups = 57 / hit rate = 40%
 # hash-table stats:
 # Load=34/8192=0%, Rehash=0, Collisions=0/57=0%
-# Finished Make data base on Tue Jun 14 18:42:44 2022
+# Finished Make data base on Tue Jun 14 19:10:47 2022
 
  
