@@ -11,6 +11,8 @@ jobs:
     runs-on: ubuntu-latest
     
     steps:
+    - name: Checkout code
+      uses: actions/checkout@v3
     # get this below template from github marketplace for aws ecr
     - name: Configure AWS credentials
       uses: aws-actions/configure-aws-credentials@v1
