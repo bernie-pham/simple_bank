@@ -8,7 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Tue Jun 14 19:10:47 2022
+# Make data base, printed on Thu Jun 16 11:31:32 2022
 
 # Variables
 
@@ -23,15 +23,17 @@ USERPROFILE = C:\Users\phamn
 # environment
 LOCALAPPDATA = C:\Users\phamn\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-ab09c0e3-e29f-4b8f-b731-5fb0f53f490c-sock
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3040bc15-15fa-4cdd-b153-0a0e02707ee3-sock
 # environment
-VSCODE_CWD = C:\Users\phamn\AppData\Local\Programs\Microsoft VS Code
+WSLENV = WT_SESSION::WT_PROFILE_ID
+# environment
+VSCODE_CWD = G:\Studying\Go\SimpleBank\simplebank
 # environment
 SYSTEMROOT = C:\Windows
 # environment
 PROCESSOR_LEVEL = 6
 # environment
-PSMODULEPATH = C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
+PSMODULEPATH = C:\Users\phamn\OneDrive\Documents\WindowsPowerShell\Modules;C:\Program Files\WindowsPowerShell\Modules;C:\Windows\system32\WindowsPowerShell\v1.0\Modules
 # default
 MAKE_COMMAND := C:/Users/phamn/scoop/apps/make/current/bin/make.exe
 # environment
@@ -39,7 +41,7 @@ GOPATH = C:\Users\phamn\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_5904_JDWMFGJTGIETVDIP
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11948_MFFVPSZHIORXABUB
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -55,7 +57,7 @@ VSCODE_LOG_STACK = false
 # automatic
 %F = $(notdir $%)
 # environment
-VSCODE_CODE_CACHE_PATH = C:\Users\phamn\AppData\Roaming\Code\CachedData\4af164ea3a06f701fe3e89a2bcbb421d2026b68f
+VSCODE_CODE_CACHE_PATH = C:\Users\phamn\AppData\Roaming\Code\CachedData\30d9c6cd9483b2cc586687151bcbcd635f373630
 # environment
 LANG = C
 # default
@@ -95,9 +97,11 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 5904
+VSCODE_PID = 11948
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
+# environment
+WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
@@ -127,7 +131,7 @@ MAKELEVEL := 0
 # default
 MAKE = $(MAKE_COMMAND)
 # environment
-PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Users\phamn\scoop\shims;C:\Users\phamn\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\phamn\AppData\Local\Programs\Python\Python310\;C:\Users\phamn\AppData\Local\Microsoft\WindowsApps;;C:\Users\phamn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\phamn\go\bin
+PATH = C:\Program Files (x86)\VMware\VMware Workstation\bin\;C:\Windows\system32;C:\Windows;C:\Windows\System32\Wbem;C:\Windows\System32\WindowsPowerShell\v1.0\;C:\Windows\System32\OpenSSH\;C:\Program Files (x86)\NVIDIA Corporation\PhysX\Common;C:\Program Files\Git\cmd;C:\Program Files\Git\bin\git.exe;C:\Program Files\Go\bin;C:\Program Files\Docker\Docker\resources\bin;C:\ProgramData\DockerDesktop\version-bin;C:\Program Files\Amazon\AWSCLIV2\;C:\Users\phamn\scoop\shims;C:\Users\phamn\AppData\Local\Programs\Python\Python310\Scripts\;C:\Users\phamn\AppData\Local\Programs\Python\Python310\;C:\Users\phamn\AppData\Local\Microsoft\WindowsApps;C:\Users\phamn\AppData\Local\Programs\Microsoft VS Code\bin;C:\Users\phamn\go\bin
 # environment
 ZES_ENABLE_SYSMAN = 1
 # environment
@@ -138,6 +142,8 @@ MAKEFILES :=
 ^F = $(notdir $^)
 # environment
 PROMPT = $P$G
+# environment
+WT_SESSION = f8603ee6-5741-4d8a-aeaf-dd20137cd552
 # environment
 LOGONSERVER = \\DESKTOP-T84QKLQ
 # environment
@@ -151,7 +157,7 @@ COMMONPROGRAMFILES = C:\Program Files (x86)\Common Files
 # environment
 PROGRAMW6432 = C:\Program Files
 # environment
-PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC
+PATHEXT = .COM;.EXE;.BAT;.CMD;.VBS;.VBE;.JS;.JSE;.WSF;.WSH;.MSC;.CPL
 # automatic
 +F = $(notdir $+)
 # environment
@@ -193,7 +199,7 @@ ELECTRON_RUN_AS_NODE = 1
 # environment
 TEMP = C:\Users\phamn\AppData\Local\Temp
 # environment
-VSCODE_IPC_HOOK = \\.\pipe\c484b07c6858109394971b39ad762b8c-1.68.0-main-sock
+VSCODE_IPC_HOOK = \\.\pipe\c484b07c6858109394971b39ad762b8c-1.68.1-main-sock
 # environment
 GOPROXY = https://proxy.golang.org,direct
 # default
@@ -201,20 +207,22 @@ GOPROXY = https://proxy.golang.org,direct
 # automatic
 <F = $(notdir $<)
 # default
+ 
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
 # environment
-SESSIONNAME = Console
+VSCODE_CLI = 1
+# environment
+ELECTRON_NO_ATTACH_CONSOLE = 1
 # default
-.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver ou 
-tput-sync load
+.FEATURES := target-specific order-only second-expansion else-if shortest-stem undefine oneshell nocomment grouped-target extra-prereqs archives jobserver output-sync load
 # environment
 PROCESSOR_REVISION = 9e09
 # environment
 PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 # variable set hash-table stats:
-# Load=100/1024=10%, Rehash=0, Collisions=10/127=8%
+# Load=104/1024=10%, Rehash=0, Collisions=12/131=9%
 
 # Pattern-specific Variable Values
 
@@ -222,7 +230,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key g:/Studying/Go/SimpleBank/simplebank, mtime 1655031448): 21 files, no impossibilities.
+# . (key g:/Studying/Go/SimpleBank/simplebank, mtime 1655353870): 21 files, no impossibilities.
 
 # 21 files, no impossibilities in 1 directories.
 
@@ -251,7 +259,7 @@ wsqlc:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-07 20:41:38
+#  Last modified 2022-06-16 11:31:10
 #  File has been updated.
 #  Successfully updated.
 
@@ -343,6 +351,6 @@ createdb:
 # strcache performance: lookups = 57 / hit rate = 40%
 # hash-table stats:
 # Load=34/8192=0%, Rehash=0, Collisions=0/57=0%
-# Finished Make data base on Tue Jun 14 19:10:47 2022
+# Finished Make data base on Thu Jun 16 11:31:32 2022
 
  
