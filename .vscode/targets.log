@@ -8,9 +8,7 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-
-# Make data base, printed on Thu Jun 16 18:24:57 2022
-
+# Make data base, printed on Thu Jun 16 21:55:49 2022
 
 # Variables
 
@@ -25,9 +23,7 @@ USERPROFILE = C:\Users\phamn
 # environment
 LOCALAPPDATA = C:\Users\phamn\AppData\Local
 # environment
-
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d652e26c-8f89-4fd6-9192-fe3532b1ba4e-sock
-
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-a81c12c8-12b7-4d87-b6c6-be3e28c5c91f-sock
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -45,9 +41,7 @@ GOPATH = C:\Users\phamn\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2368_DJYZSYKQIBKOYXXH
-
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2228_JKCJAVOABMQIEYHW
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -103,9 +97,7 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-
-VSCODE_PID = 2368
-
+VSCODE_PID = 2228
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -113,8 +105,7 @@ WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(d 
-ir $<)))
+<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -152,9 +143,7 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-
-WT_SESSION = 26387262-f81e-48ca-a524-20066dcd8d11
-
+WT_SESSION = 6f6438ba-86d6-4ce9-a573-9338a6413b4a
 # environment
 LOGONSERVER = \\DESKTOP-T84QKLQ
 # environment
@@ -177,7 +166,8 @@ ORIGINAL_XDG_CURRENT_DESKTOP = undefined
 USERDOMAIN = DESKTOP-T84QKLQ
 # 'override' directive
 GNUMAKEFLAGS := 
-# environment
+# environm 
+ent
 OS = Windows_NT
 # makefile
 .DEFAULT_GOAL := postgres
@@ -218,7 +208,6 @@ GOPROXY = https://proxy.golang.org,direct
 # automatic
 <F = $(notdir $<)
 # default
- 
 SUFFIXES := 
 # environment
 ALLUSERSPROFILE = C:\ProgramData
@@ -241,7 +230,7 @@ PROCESSOR_IDENTIFIER = Intel64 Family 6 Model 158 Stepping 9, GenuineIntel
 
 # Directories
 
-# . (key g:/Studying/Go/SimpleBank/simplebank, mtime 1655353870): 21 files, no impossibilities.
+# . (key g:/Studying/Go/SimpleBank/simplebank, mtime 1655390905): 21 files, no impossibilities.
 
 # 21 files, no impossibilities in 1 directories.
 
@@ -270,7 +259,7 @@ wsqlc:
 # Not a target:
 Makefile:
 #  Implicit rule search has been done.
-#  Last modified 2022-06-16 11:31:10
+#  Last modified 2022-06-16 20:49:18
 #  File has been updated.
 #  Successfully updated.
 
@@ -362,8 +351,6 @@ createdb:
 # strcache performance: lookups = 57 / hit rate = 40%
 # hash-table stats:
 # Load=34/8192=0%, Rehash=0, Collisions=0/57=0%
-
-# Finished Make data base on Thu Jun 16 18:24:57 2022
-
+# Finished Make data base on Thu Jun 16 21:55:49 2022
 
  
