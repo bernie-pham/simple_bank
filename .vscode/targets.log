@@ -8,7 +8,9 @@ make: *** No rule to make target 'all'.  Stop.
 # This is free software: you are free to change and redistribute it.
 # There is NO WARRANTY, to the extent permitted by law.
 
-# Make data base, printed on Thu Jun 16 11:31:32 2022
+
+# Make data base, printed on Thu Jun 16 18:24:57 2022
+
 
 # Variables
 
@@ -23,7 +25,9 @@ USERPROFILE = C:\Users\phamn
 # environment
 LOCALAPPDATA = C:\Users\phamn\AppData\Local
 # environment
-VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-3040bc15-15fa-4cdd-b153-0a0e02707ee3-sock
+
+VSCODE_IPC_HOOK_EXTHOST = \\.\pipe\vscode-ipc-d652e26c-8f89-4fd6-9192-fe3532b1ba4e-sock
+
 # environment
 WSLENV = WT_SESSION::WT_PROFILE_ID
 # environment
@@ -41,7 +45,9 @@ GOPATH = C:\Users\phamn\go
 # automatic
 @D = $(patsubst %/,%,$(patsubst %\,%,$(dir $@)))
 # environment
-CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_11948_MFFVPSZHIORXABUB
+
+CHROME_CRASHPAD_PIPE_NAME = \\.\pipe\crashpad_2368_DJYZSYKQIBKOYXXH
+
 # environment
 FPS_BROWSER_USER_PROFILE_STRING = Default
 # environment
@@ -97,7 +103,9 @@ MAKEFILE_LIST := Makefile
 # environment
 VSCODE_VERBOSE_LOGGING = true
 # environment
-VSCODE_PID = 11948
+
+VSCODE_PID = 2368
+
 # automatic
 ?D = $(patsubst %/,%,$(patsubst %\,%,$(dir $?)))
 # environment
@@ -105,7 +113,8 @@ WT_PROFILE_ID = {61c54bbd-c2c6-5271-96e7-009a87ff44bf}
 # automatic
 *F = $(notdir $*)
 # automatic
-<D = $(patsubst %/,%,$(patsubst %\,%,$(dir $<)))
+<D = $(patsubst %/,%,$(patsubst %\,%,$(d 
+ir $<)))
 # environment
 VSCODE_NLS_CONFIG = {"locale":"en-us","availableLanguages":{},"_languagePackSupport":true}
 # environment
@@ -143,7 +152,9 @@ MAKEFILES :=
 # environment
 PROMPT = $P$G
 # environment
-WT_SESSION = f8603ee6-5741-4d8a-aeaf-dd20137cd552
+
+WT_SESSION = 26387262-f81e-48ca-a524-20066dcd8d11
+
 # environment
 LOGONSERVER = \\DESKTOP-T84QKLQ
 # environment
@@ -351,6 +362,8 @@ createdb:
 # strcache performance: lookups = 57 / hit rate = 40%
 # hash-table stats:
 # Load=34/8192=0%, Rehash=0, Collisions=0/57=0%
-# Finished Make data base on Thu Jun 16 11:31:32 2022
+
+# Finished Make data base on Thu Jun 16 18:24:57 2022
+
 
  
